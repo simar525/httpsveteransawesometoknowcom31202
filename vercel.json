@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/veteransawesometoknowcom",
+      "destination": "/https://txlearning.org/"
+ },
+ {
+      "source": "/veteransawesometoknowcom/(.*)",
+      "destination": "https://txlearning.org/$1"
+ }
+  ]
+}
